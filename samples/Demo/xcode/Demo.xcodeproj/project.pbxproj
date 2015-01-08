@@ -43,6 +43,7 @@
 		B03F2F991A5E0681004103D3 /* LiveParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveParam.h; path = ../../../src/LiveParam.h; sourceTree = "<group>"; };
 		B03F2F9A1A5E0681004103D3 /* LiveParam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LiveParam.cpp; path = ../../../src/LiveParam.cpp; sourceTree = "<group>"; };
 		B03F2F9D1A5E068F004103D3 /* Watchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Watchdog.h; path = ../../../src/Watchdog/include/Watchdog.h; sourceTree = "<group>"; };
+		B03F2F9E1A5ED94F004103D3 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../assets; sourceTree = "<group>"; };
 		D6AB202ACB9840EEBC078536 /* Demo_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Demo_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +122,7 @@
 		29B97314FDCFA39411CA2CEA /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				B03F2F9E1A5ED94F004103D3 /* assets */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
