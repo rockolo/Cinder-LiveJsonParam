@@ -1,0 +1,3 @@
+[submodule "src/Watchdog"]
+	path = src/Watchdog
+	url = git@github.com:simongeilfus/Watchdog.git
