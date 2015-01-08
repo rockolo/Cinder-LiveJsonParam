@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
@@ -12,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="blocks">
+      <UniqueIdentifier>{75008cf6-2dd9-46ad-98c0-ffeb4fc9655b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blocks\Cinder-LiveJsonParam">
+      <UniqueIdentifier>{7f918bba-30c8-41fb-9a46-4250f5a188ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blocks\Watchdog">
+      <UniqueIdentifier>{d565c3cd-61e4-4f74-a763-a228f0cc8133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blocks\Watchdog\include">
+      <UniqueIdentifier>{66df6119-d41c-49f9-b8eb-10a85111c1e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\DemoApp.cpp">
@@ -23,10 +36,19 @@
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\..\src\LiveParam.cpp">
+      <Filter>blocks\Cinder-LiveJsonParam</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LiveParam.h">
+      <Filter>blocks\Cinder-LiveJsonParam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Watchdog\include\Watchdog.h">
+      <Filter>blocks\Watchdog\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

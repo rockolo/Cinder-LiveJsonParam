@@ -26,9 +26,7 @@ public:
 	void keyDown( KeyEvent event ) override;
 	
 	Disk					mDisk;
-	params::InterfaceGlRef	mParams;
 	Perlin					mPerlin;
-	
 	Param<float>			mPerlinAmplitude, mPerlinSpeed, mPerlinScale, mFriction, mSpringK;
 };
 
