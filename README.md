@@ -2,7 +2,9 @@
 A basic-live-cinder-json-saved-parameters system using _Simon Geilfus'_ Watchdog as a submodule.
 
 ```
-live::Param<float> mRadius;
+using namespace live;
+
+Param<float> mRadius;
 [...]
 JsonBag::add( &mRadius, "radius" );
 JsonBag::add( &mRadius, "radius",  []() { app::console() << "Updated radius!" << endl; } );
