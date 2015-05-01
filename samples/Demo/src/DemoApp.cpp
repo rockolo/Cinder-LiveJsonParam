@@ -1,4 +1,4 @@
-#include "cinder/app/AppNative.h"
+#include "cinder/app/App.h"
 #include "cinder/app/RendererGl.h"
 #include "cinder/gl/gl.h"
 
@@ -18,7 +18,7 @@ struct Disk {
 	vec2			mPos, mVel;
 };
 
-class DemoApp : public AppNative {
+class DemoApp : public App {
 public:
 	void setup() override;
 	void update() override;
@@ -76,4 +76,4 @@ void DemoApp::keyDown( KeyEvent event )
 	}
 }
 
-CINDER_APP_NATIVE( DemoApp, RendererGl )
+CINDER_APP( DemoApp, RendererGl )
